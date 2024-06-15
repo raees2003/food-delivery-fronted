@@ -1,0 +1,61 @@
+.nev {
+    height: 8vh;
+    background-color: #f4f4f7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #a3acb9;
+}
+
+.manu {
+    display: flex;
+    gap: 2vw;
+    font-size: 16px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+}
+
+.ri-restaurant-fill {
+    font-size: 25px;
+    color: #fb8a22;
+}
+
+.contactUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7vw;
+    font-size: 18px;
+}
+
+.ri-menu-3-fill {
+    display: none;
+}
+
+@media (max-width: 550px) {
+    .contactUp {
+        display: none;
+    }
+    .manu {
+        display: none;
+    }
+
+    .ri-menu-3-fill {
+        display: inline;
+        font-size: 25px;
+    }
+
+    .nev {
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+}
